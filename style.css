@@ -1,0 +1,49 @@
+#main-block{
+    float: left;
+    padding: 15px;
+    background-color: darkolivegreen;
+    color: #fff;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    padding: 15px;
+    background-color: rgb(4, 8, 125);
+    color: #fff;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.p-box{
+    background-color: blueviolet;
+    color: black;
+    width: 100%;
+    border: 3px dotted solid black;
+}
+
+.fix-me{
+    position: relative;
+    top: 40px;
+}
+
+.my-list li:first-child{
+    background-color: rgb(232, 123, 6);
+}
+
+.my-list li:nth-child(2){
+    background-color: rgb(239, 216, 10);
+}
+
+.my-list li:nth-child(3){
+    background-color: rgb(170, 8, 118);
+}
+
+.my-list li:nth-child(4){
+    background-color: rgb(61, 16, 238);
+}
+
+.my-list li:last-child{
+    background-color: darkcyan;
+}
